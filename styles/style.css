@@ -1,0 +1,24 @@
+/* style.css */
+
+* {
+    background-color: rgb(228, 215, 181);
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+h1 {
+    font-size: 40px;
+    font-variant-caps:all-petite-caps;
+}
+
+.description, .description h4, .description p {
+    background-color: rgb(243, 211, 170);
+
+}
+
+.ingredients, .ingredients h4, .ingredients ul, .ingredients li, .ingredients p {
+    background-color: white;
+}
+
+.steps, .steps ol, .steps li, .steps h4, .steps p {
+    background-color: blanchedalmond;
+}
