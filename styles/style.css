@@ -1,8 +1,28 @@
 /* style.css */
 
 * {
-    background-color: rgb(228, 215, 181);
+    /*background-color: rgb(228, 215, 181);*/
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+body {
+    background-color: blanchedalmond;
+}
+
+.container {
+    
+    padding: 16px;
+    border: 3px burlywood dotted;
+    gap: 8px;
+    display: flex;
+}
+
+.container > li {
+    
+    border: 3 px dotted burlywood;
+    height: 48px;
+    flex: 1;
+    padding: 4px;
 }
 
 h1, h2, h3 {
@@ -27,6 +47,7 @@ h2 {
     margin-top: -20px;
     margin-left: 3em;
     width: 40%;
+    
     /*margin-right: 3em;*/
 }
 
